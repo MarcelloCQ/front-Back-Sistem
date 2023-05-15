@@ -1,0 +1,44 @@
+.header {
+  background-color: rgba(63, 77, 53, 0.692);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  transition: all 0.4s ease-in-out;
+}
+.header:hover {
+  background-color: rgba(68, 114, 86, 0.87);
+}
+
+.header-content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 97%;
+  height: 100%;
+  padding: 5px 15px 5px 15px;
+  gap: 2em;
+}
+
+.recuadro-de-perfil-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 100%;
+}
+
+.AlignJustifyClass {
+  height: 60px;
+  width: 60px;
+  transition: all .1s ease-in-out;
+}
+
+.AlignJustifyClass:active {
+  height: 65px;
+  width: 65px;
+  color: rgba(207, 207, 207, 0.9);
+}

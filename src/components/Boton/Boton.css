@@ -1,0 +1,7 @@
+.button-base {
+  background-color: rgba(30, 50, 30, .9);
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,29 @@
+.caja-container {
+  width: 100%;
+  height: 100%;
+}
+.caja-container-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 30px;
+  width: 100%;
+  gap: 2em;
+}
+.caja-input-container {
+  display: flex;
+  width: 60%;
+  height: 100%;
+}
+.caja-button-container {
+  display: flex;
+  width: 10%;
+  height: 100%;
+}
+.caja-container-search-results {
+  display: flex;
+  flex-direction: column;
+}
+.caja-container-body {
+  display: flex;
+}
